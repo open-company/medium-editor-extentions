@@ -1,0 +1,29 @@
+{
+  "name": "@open-company/medium-editor-extentions",
+  "version": "1.0.0",
+  "description": "Pack of extensions for yabwe/medium-editor used by carrot.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-company/medium-editor-extentions.git"
+  },
+  "keywords": [
+    "MediumEditor",
+    "medium-editor",
+    "extention"
+  ],
+  "author": "Iacopo Carraro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/open-company/medium-editor-extentions/issues"
+  },
+  "homepage": "https://github.com/open-company/medium-editor-extentions#readme",
+  "dependencies": {
+    "medium-editor": "^5.23.3",
+    "rangy-classapplier": "^2.1.0",
+    "rangy2": "^2.1.0"
+  }
+}
