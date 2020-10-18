@@ -1,7 +1,7 @@
 import MediumEditor from "medium-editor";
 import {getSelection} from "rangy2";
 
-var Toolbar = MediumEditor.Extension.extend({
+export default MediumEditor.Extension.extend({
   name: 'toolbar',
 
   /* Toolbar Options */

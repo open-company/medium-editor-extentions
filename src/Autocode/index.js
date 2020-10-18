@@ -2,7 +2,7 @@ import MediumEditor from "medium-editor";
 
 // Inspired by https://github.com/varun-raj/medium-editor-autolist
 
-var AutoCode = MediumEditor.Extension.extend({
+export default MediumEditor.Extension.extend({
   name: 'AutoCode',
   preCollection: null,
   throttledCheck: null,

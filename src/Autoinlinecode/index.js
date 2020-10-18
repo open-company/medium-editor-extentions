@@ -2,7 +2,7 @@ import MediumEditor from "medium-editor";
 
 // Inspired by https://github.com/varun-raj/medium-editor-autolist
 
-var AutoInlinecode = MediumEditor.Extension.extend({
+export default MediumEditor.Extension.extend({
     name: 'AutoInlinecode',
     keyCodes: {BACKQUOTE: 192,
                RIGHTARROW: 39},
