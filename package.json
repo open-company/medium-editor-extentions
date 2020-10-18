@@ -24,6 +24,7 @@
   "dependencies": {
     "@rangy/classapplier": "^2.1.0",
     "@rangy/core": "^2.1.0",
+    "log4javascript": "^1.4.15",
     "medium-editor": "^5.23.3"
   }
 }
