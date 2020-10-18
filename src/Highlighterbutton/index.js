@@ -1,8 +1,7 @@
 import MediumEditor from "medium-editor";
-import {createClassApplier} from "rangy-classapplier";
-import { HighlighterButton } from "../..";
+import {createClassApplier} from "@rangy/classapplier";
 
-var highlighterButton = MediumEditor.extensions.button.extend({
+var HighlighterButton = MediumEditor.extensions.button.extend({
   name: 'highlighter',
 
   tagNames: ['mark'], // nodeName which indicates the button should be 'active' when isAlreadyApplied() is called

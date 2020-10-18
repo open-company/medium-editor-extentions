@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/open-company/medium-editor-extentions#readme",
   "dependencies": {
-    "medium-editor": "^5.23.3",
-    "rangy-classapplier": "^2.1.0",
-    "rangy2": "^2.1.0"
+    "@rangy/classapplier": "^2.1.0",
+    "@rangy/core": "^2.1.0",
+    "medium-editor": "^5.23.3"
   }
 }

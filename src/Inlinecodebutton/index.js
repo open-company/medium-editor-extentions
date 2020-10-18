@@ -1,5 +1,5 @@
 import MediumEditor from "medium-editor";
-import {createClassApplier} from "rangy-classapplier";
+import {createClassApplier} from "@rangy/classapplier";
 
 var InlineCodeButton = MediumEditor.Extension.extend({
   name: 'inlinecode',
