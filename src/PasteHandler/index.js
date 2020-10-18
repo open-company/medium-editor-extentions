@@ -97,7 +97,7 @@ function getClipboardContent(event, win, doc) {
     return data;
 }
 
-export default MediumEditor.Extension.extend({
+var PasteHandler = MediumEditor.Extension.extend({
     /* Paste Options */
 
     /* forcePlainText: [boolean]
@@ -563,3 +563,5 @@ export default MediumEditor.Extension.extend({
         }
     }
 });
+
+export default PasteHandler;

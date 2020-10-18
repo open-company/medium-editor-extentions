@@ -1,7 +1,8 @@
 import MediumEditor from "medium-editor";
 import {createClassApplier} from "rangy-classapplier";
+import { HighlighterButton } from "../..";
 
-export default MediumEditor.extensions.button.extend({
+var highlighterButton = MediumEditor.extensions.button.extend({
   name: 'highlighter',
 
   tagNames: ['mark'], // nodeName which indicates the button should be 'active' when isAlreadyApplied() is called
@@ -54,3 +55,5 @@ export default MediumEditor.extensions.button.extend({
     return MediumEditor.util.traverseUp(node, function(el){return el.nodeName.toLowerCase() === 'mark';});
   }
 });
+
+export default HighlighterButton;

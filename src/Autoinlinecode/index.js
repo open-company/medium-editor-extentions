@@ -2,7 +2,7 @@ import MediumEditor from "medium-editor";
 
 // Inspired by https://github.com/varun-raj/medium-editor-autolist
 
-export default MediumEditor.Extension.extend({
+var AutoInlineCode = MediumEditor.Extension.extend({
     name: 'AutoInlinecode',
     keyCodes: {BACKQUOTE: 192,
                RIGHTARROW: 39},
@@ -79,3 +79,5 @@ export default MediumEditor.Extension.extend({
       return MediumEditor.util.traverseUp(node, function(el){return el.nodeName.toLowerCase() === 'p';});
     }
   });
+
+  export default AutoInlineCode;

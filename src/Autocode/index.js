@@ -2,7 +2,7 @@ import MediumEditor from "medium-editor";
 
 // Inspired by https://github.com/varun-raj/medium-editor-autolist
 
-export default MediumEditor.Extension.extend({
+var AutoCode = MediumEditor.Extension.extend({
   name: 'AutoCode',
   preCollection: null,
   throttledCheck: null,
@@ -83,3 +83,5 @@ export default MediumEditor.Extension.extend({
     return MediumEditor.util.traverseUp(node, function(el){return el.nodeName.toLowerCase() === 'pre';});
   }
 });
+
+export default AutoCode;

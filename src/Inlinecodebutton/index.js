@@ -1,8 +1,7 @@
 import MediumEditor from "medium-editor";
-
 import {createClassApplier} from "rangy-classapplier";
 
-export default MediumEditor.Extension.extend({
+var InlineCodeButton = MediumEditor.Extension.extend({
   name: 'inlinecode',
 
   init: function () {
@@ -44,3 +43,5 @@ export default MediumEditor.Extension.extend({
     this.button.classList.add('medium-editor-button-active');
   }
 });
+
+export default InlineCodeButton;

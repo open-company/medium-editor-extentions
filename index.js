@@ -1,9 +1,7 @@
-
-// export {Toolbar} from "src/Toolbar/index";
-export {default as PasteHandler} from "src/Paste/index";
-export {default as Autolist} from "src/Autolist/index";
-export {default as AutoQuote} from "src/Autoquote/index";
-export {default as AutoCode} from "src/Autocode/index";
-export {default as AutoInlinecode} from "src/Autoinlinecode/index";
-export {default as InlineCodeButton} from "src/Inlidecodebutton/index";
-export {default as HighlighterButton} from "src/Highlighterbutton/index";
+export {default as AutoCode} from "./src/AutoCode/index.js";
+export {default as AutoInlineCode} from "./src/AutoInlineCode/index.js";
+export {default as AutoList} from "./src/AutoList/index.js";
+export {default as AutoQuote} from "./src/AutoQuote/index.js";
+export {default as HighlighterButton} from "./src/HighlighterButton/index.js";
+export {default as InlineCodeButton} from "./src/InlideCodeButton/index.js";
+export {default as PasteHandler} from "./src/PasteHandler/index.js";

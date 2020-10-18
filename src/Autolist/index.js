@@ -2,7 +2,7 @@ import MediumEditor from "medium-editor";
 
 // Inspired by https://github.com/varun-raj/medium-editor-autolist
 
-export default MediumEditor.Extension.extend({
+var AutoList = MediumEditor.Extension.extend({
   name: 'autolist',
   init: function(){
     this.subscribe('editableKeyup', this.onKeyup.bind(this));
@@ -17,3 +17,5 @@ export default MediumEditor.Extension.extend({
     }
   }
 });
+
+export default AutoList;
