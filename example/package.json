@@ -14,7 +14,7 @@
   "author": "Iacopo Carraro",
   "license": "MIT",
   "dependencies": {
-    "@open-company/medium-editor-extentions": "github:open-company/medium-editor-extentions",
+    "@open-company/medium-editor-extentions": "github:open-company/medium-editor-extentions#test",
     "medium-editor": "^5.23.3"
   },
   "devDependencies": {

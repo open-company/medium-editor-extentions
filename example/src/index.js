@@ -9,4 +9,5 @@ console.log("DBG InlineCodeButton:", InlineCodeButton);
 console.log("DBG PasteHandler:", PasteHandler);
 
 var el = document.getElementById("editor");
-new MediumEditor(el); //, {extentions: {autolist: new Autolist()}});
+new MediumEditor(el, {extentions: {autolist: new AutoList(),
+                                   autocode: new AutoCode()}});
