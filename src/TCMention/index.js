@@ -361,7 +361,7 @@ export const TCMention = MediumEditor.Extension.extend({
   },
 
   updatePanelContent() {
-    this.renderPanelContent(this.mentionPanel, this.word, this.handleSelectMention);
+    this.renderPanelContent(this.mentionPanel, this.word, this.handleSelectMention.bind(this));
   },
 
   handleSelectMention(selectedText, details) {
