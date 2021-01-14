@@ -219,7 +219,7 @@ export const TCMention = MediumEditor.Extension.extend({
         this.activeMentionAt.classList.remove(this.extraActiveTriggerClassName);
       }
     }
-    if (this.activeMentionAt) {
+    if (this.activeMentionAt && this.activeMentionAt.parentNode) {
       // http://stackoverflow.com/a/27004526/1458162
       const { parentNode, previousSibling, nextSibling, firstChild } = this.activeMentionAt;
       const siblingNode = isArrowTowardsLeft ? previousSibling : nextSibling;

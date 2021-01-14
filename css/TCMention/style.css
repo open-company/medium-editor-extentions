@@ -1,5 +1,5 @@
-.medium-editor-mention-panel {
-  font-family: sans-serif;
+.medium-editor-mention-panel{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 16px;
   left: 0;
   line-height: 1.4;
@@ -11,12 +11,12 @@
   word-wrap: break-word;
   visibility: hidden;
   overflow: hidden;
-  z-index: 1;
-  border: 1px solid rgba(0,0,0,0.15);
-  background-color: white;
+  z-index: 2000;
+  border: 1px solid rgba(0,0,0,.15);
+  background-color: #fff;
 }
 
-.medium-editor-mention-panel-active {
+.medium-editor-mention-panel-active{
   visibility: visible;
   overflow: visible;
 }
