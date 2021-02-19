@@ -10,7 +10,7 @@ var AutoQuote = MediumEditor.Extension.extend({
   onKeyup: function (keyUpEvent) {
     if (MediumEditor.util.isKey(keyUpEvent, [MediumEditor.util.keyCode.SPACE])) {
       var quote_start = this.base.getSelectedParentElement().textContent,
-          opening_regex = />\s*/i;
+          opening_regex = /^\s*>\s$/i;
       if( quote_start.match(opening_regex) && this.base.getExtensionByName('quote')){
         this.base.execAction('append-blockquote');
         this.base.getSelectedParentElement().textContent = this.base.getSelectedParentElement().textContent.slice(1).trim();
