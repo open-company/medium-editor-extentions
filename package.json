@@ -1,6 +1,6 @@
 {
   "name": "@open-company/medium-editor-extentions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pack of extensions for yabwe/medium-editor used by carrot.io",
   "main": "index.js",
   "scripts": {
